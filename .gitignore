@@ -1,0 +1,23 @@
+.ipynb_checkpoints/
+annotations/
+images/
+img_backup/
+#Add the app folder to github from android studio itself
+
+*.tflite
+*.pkl
+
+# Android files to be ignored below
+*.apk
+*.ao_
+*.dex
+*.class
+bin/
+gen/
+local.properties
+Thumbs.db
+.classpath
+.project
+.idea
+build/ 
+#The build folder is generally huge and needs to be ignored
