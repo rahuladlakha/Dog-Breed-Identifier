@@ -6,6 +6,7 @@ import android.media.ThumbnailUtils
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -28,7 +29,11 @@ class MainActivity : AppCompatActivity() {
         TV_Breed.text = result
         capturedIV.setImageBitmap(ImageClassifier.img_bitmap)
         val des = DogDescriptionFactory.getDescription(result?.split("\n")?.get(0), this)
-        if (des != null)
+
+        if (des != null) {
             TV_des.text = des
+            src_TV.visibility = View.VISIBLE
+        } else
+            src_TV.visibility = View.INVISIBLE
     }
 }

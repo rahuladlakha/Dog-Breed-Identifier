@@ -25,8 +25,8 @@
 
             <ImageView
                 android:id="@+id/capturedIV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
 
             <TextView
                 android:id="@+id/TV_Breed"
@@ -43,7 +43,7 @@
                 android:id="@+id/src_TV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="\nSource: American Kennel Club website"
+                android:text="\nDescription Source: American Kennel Club website"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
         </LinearLayout>
     </ScrollView>
