@@ -36,6 +36,7 @@ class CameraActivity : AppCompatActivity() {
         fun getResult(bitmap : Bitmap, context : Context){
 //            val dim = Math.min(bitmap.width, bitmap.height)
 //            val bmap = ThumbnailUtils.extractThumbnail(bitmap, dim, dim)
+            Toast.makeText(context, "Please wait a moment!", Toast.LENGTH_SHORT).show()
             val result = ImageClassifier.classifyImage(bitmap, context)
             val intent = Intent(context, MainActivity::class.java)
             intent.putExtra("result", result)
