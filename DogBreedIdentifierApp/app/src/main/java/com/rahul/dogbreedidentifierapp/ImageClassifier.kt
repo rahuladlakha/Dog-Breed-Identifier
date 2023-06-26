@@ -78,7 +78,7 @@ class ImageClassifier {
 //            m1.close()
 //            m2.close()
 //            m3.close()
-            return "${classes[maxInd]}\nconfidence=$maxConfidence"
+            return "${classes[maxInd]}\n(confidence=${(maxConfidence*100).toInt()}%)\n"
         }
     }
 }

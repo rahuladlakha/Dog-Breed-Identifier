@@ -22,8 +22,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportActionBar?.title = "Identified Breed"
-        TV_Breed.text = intent.getStringExtra("result")
+//        supportActionBar?.title = "Identified Breed"
+        supportActionBar?.hide()
+        val result = intent.getStringExtra("result")
+        TV_Breed.text = result
         capturedIV.setImageBitmap(ImageClassifier.img_bitmap)
+        val des = DogDescriptionFactory.getDescription(result?.split("\n")?.get(0), this)
+        if (des != null)
+            TV_des.text = des
     }
 }
