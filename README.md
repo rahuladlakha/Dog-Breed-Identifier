@@ -1,2 +1,10 @@
 # Dog-Breed-Identifier
-Readme file for the project
+Find the apk file on the below link 👇  
+https://drive.google.com/file/d/1_gAU349zmBT9hBGX10UjL11viRkcAFO_/view?usp=drive_link
+
+
+The app identifies 90 different dog breeds.
+
+Following dog breeds can be identified:  
+"African Hunting Dog", "Airedale", "American Staffordshire Terrier", "Appenzeller", "Australian Terrier", "Basenji", "Beagle", "Bedlington Terrier", "Bernese Mountain Dog", "Black", "Blenheim Spaniel", "Bloodhound", "Border Collie", "Border Terrier", "Borzoi", "Boston Bull", "Boxer", "Brabancon Griffon", "Briard", "Brittany Spaniel", "Bull Mastiff", "Cardigan", "Chihuahua", "Chow", "Cocker Spaniel",  "Dandie Dinmont", "Dhole", "Dingo", "Doberman", "English Foxhound", "EntleBucher", "Eskimo Dog", "Flat", "French Bulldog", "German Shepherd", "Giant Schnauzer", "Golden Retriever", "Great Dane", "Great Pyrenees", "Greater Swiss Mountain Dog", "Groenendael", "Ibizan Hound", "Irish Terrier", "Italian Greyhound", "Keeshond", "Kelpie", "Kerry Blue Terrier", "Komondor", "Kuvasz", "Labrador Retriever", "Lakeland Terrier", "Leonberg", "Malamute", "Malinois", "Maltese Dog", "Mexican Hairless", "Miniature Pinscher", "Miniature Poodle", "Miniature Schnauzer", "Norfolk Terrier", "Norwegian Elkhound", "Norwich Terrier", "Old English Sheepdog", "Otterhound", "Papillon", "Pekinese", "Pembroke", "Pomeranian", "Pug", "Redbone", "Rhodesian Ridgeback", "Rottweiler", "Saint Bernard", "Saluki", "Samoyed", "Schipperke", "Scotch Terrier", "Scottish Deerhound", "Sealyham Terrier", "Shetland Sheepdog", "Siberian Husky", "Staffordshire Bullterrier", "Standard Poodle", "Standard Schnauzer", "Tibetan Mastiff", "Toy Poodle", "Vizsla", "Walker Hound", "West Highland White Terrier", "Yorkshire Terrier"
+        
